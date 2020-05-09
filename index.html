@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kender Luis Perez</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/d2b7b04f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="menu">
+        <div class="menu1">
+            <ul>
+                <li><a href="https://twitter.com/kenderLperez" target="_blank"><i class="fas fa-user"></i></a></li>
+                <li><a href="https://github.com/kenderperez"><i class="fas fa-mug-hot"></i></a></li>
+                <li><a href="https://www.behance.net/wotdesing"><i class="fas fa-briefcase"></i></a></li>
+                <li><a class="corazon" id="cosa" href=""><i class="far fa-heart"></i>
+                    <div id="cora" class="contador">
+                        <span>9</span>
+                    </div></a></li>
+              </ul> 
+        </div>
+        <div class="menu2"></div>
+    </nav>
+
+    <div class="grid">
+        
+        <div>
+            
+        </div>
+        <div class="imga">
+            
+            <div class="imgcontainer">
+                <img class="ken" src="kender.webp" alt="kender" width="170px">
+            </div>
+            
+            <h1>kender luis perez</h1>
+            <h2>Desarrollador Full Stack</h2>
+            <div class="links">
+                <ul>
+                    <li><a href="https://twitter.com/kenderLperez" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/kenderperez"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.behance.net/wotdesing"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="kenderperez1995@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                  </ul> 
+            </div>
+        
+                
+            
+            
+        </div>
+        <div></div>
+    </div>
+<script>
+    var contador = document.getElementById('cora');
+    var cosa = document.getElementById('cosa');
+ 
+
+   cosa.addEventListener('mouseover', function(e) {
+       e.preventDefault()
+       contador.style.display = 'grid';
+   })
+   cosa.addEventListener('mouseout', function(e) {
+       e.preventDefault()
+       contador.style.display = 'none';
+   })
+   cosa.addEventListener('click', function(e) {
+       e.preventDefault()
+       this.style.color = '#da2643';
+   })
+</script> 
+</body>
+</html>
