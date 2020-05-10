@@ -11,6 +11,7 @@
 <body>
     <nav class="menu">
         <div class="menu1">
+            <div class="imgkernnel"><img src="devkernnel.png" id="imgkernnel" width="170px" alt=""></div>
             <ul>
                 <li><a href="https://twitter.com/kenderLperez" target="_blank"><i class="fas fa-user"></i></a></li>
                 <li><a href="https://github.com/kenderperez"><i class="fas fa-mug-hot"></i></a></li>
@@ -64,29 +65,30 @@
     <div class="grid3">
         <div></div>
         <div class="quiensoy">
-            <p>
-                Hola! Soy Kender Luis Perez, actualmente trabajo como Desarrollador Web, Freelance.
-
-💻 Estoy hace más de 10 años en el mundo de sistemas, principalmente centrado en lo que es web, tanto desarrollo FrontEnd como BackEnd.
-
-A principio de este año me propuse hacer crecer mi perfil ayudando a la comunidad de sistemas, para esto creé un blog en donde estoy subiendo serie de tutoriales, ya sean desde 0 o avanzados, para todos los niveles.
-            </p>
+            <p>Hola! Mi nombre es <strong>Kender Luis Perez</strong>  <strong class="wmogi">👋🏻</strong>, actualmente trabajo como diseñador grafico. Desde muy pequeño me interese por la tegnologia, Queria saber como funcionaba todo. <strong class="wmogi">🤯</strong> Incluyendo la web <strong class="wmogi">💻</strong> Poco a poco fui aprendiendo tegnologias como html, css, javascript y finalmente python y nodejs del lado del servidor <strong class="wmogi">🧠</strong>. En mi camino de aprendizaje me di cuenta de lo mucho que ayuda encontrar material en español sobre programacion y las tegnologias web por eso he decidido compartir mi conocimiento con ustedes por medio de mi <a href="">blog.</a> </p>
         </div>
         <div></div>
     </div>
-   
+    <nav class="menu">
+        <div class="fotter">
+            <p>Hecho con <i class="far fa-heart"></i> por Kender Perez</p>
+        </div>
+        <div class="menu2"></div>
+    </nav>
 <script>
     var contador = document.getElementById('cora');
     var cosa = document.getElementById('cosa');
- 
+    var logo = document.getElementById('imgkernnel');
 
    cosa.addEventListener('mouseover', function(e) {
        e.preventDefault()
        contador.style.display = 'grid';
+        logo.style.marginBottom = '10px';
    })
    cosa.addEventListener('mouseout', function(e) {
        e.preventDefault()
        contador.style.display = 'none';
+       logo.style.marginBottom = '-3px';
    })
    cosa.addEventListener('click', function(e) {
        e.preventDefault()
